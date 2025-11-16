@@ -79,23 +79,6 @@ npm run dev
 - User-specific todo lists
 - Comprehensive error logging to MongoDB
 
-## API Endpoints
-
-### Authentication
-- `POST /api/auth/signup` - Register user
-- `POST /api/auth/login` - Login user
-- `POST /api/auth/refresh-token` - Refresh access token
-- `POST /api/auth/forgot-password` - Request password reset
-- `POST /api/auth/reset-password` - Reset password
-- `GET /api/auth/profile` - Get user profile
-
-### Todos
-- `GET /api/todos` - Get all todos
-- `POST /api/todos` - Create todo
-- `PUT /api/todos/:id` - Update todo
-- `DELETE /api/todos/:id` - Delete todo
-- `PATCH /api/todos/:id/toggle` - Toggle completion
-
 ## Project Structure
 
 ```
